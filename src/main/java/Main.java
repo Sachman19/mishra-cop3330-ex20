@@ -35,9 +35,9 @@ public class Main {
         }
 
         double total = tax * order; //Temporarily using this to store the tax
-        System.out.printf("The tax is %.2f", total);
+        System.out.printf("The tax is $%.2f%n", total);
 
         total += order;
-        System.out.printf("The total is %.2f", total);
+        System.out.printf("The total $is %.2f", total);
     }
 }
